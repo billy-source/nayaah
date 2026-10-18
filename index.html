@@ -178,7 +178,7 @@ const DEFAULTS = {
   ]
 };
 /* Supabase: paste your Project URL and anon/publishable key (safe to expose; NEVER paste a service_role/secret key) */
-const SUPABASE_URL = 'PASTE_YOUR_PROJECT_URL';
+const SUPABASE_URL = 'https://znzfxfsmrcxkeuathtos.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpuemZ4ZnNtcmN4a2V1YXRodG9zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIzMTI2NDEsImV4cCI6MjEwNzg4ODY0MX0.o-JGKaJ0IlAB3yi5kiXeYCe4Mfuerj-EumeCNvshIvo';
 const sb = !SUPABASE_URL.startsWith('PASTE') && window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 const CFG = { wa: '254797787798', cur: 'KSh', key: 'nayah-cart-v2' };
